@@ -23,6 +23,7 @@ local global = require("factorio-plugin.global")
 local remote = require("factorio-plugin.remote")
 local on_event = require("factorio-plugin.on-event")
 local object_name = require("factorio-plugin.object-name")
+local command_line = require("factorio-plugin.command-line")
 
 ---@class Diff
 ---@field start integer @ The number of bytes at the beginning of the replacement
