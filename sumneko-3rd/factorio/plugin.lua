@@ -81,6 +81,7 @@ function OnSetText(uri, text)
   remote.replace(uri, text, diffs)
   on_event.replace(uri, text, diffs)
   object_name.replace(uri, text, diffs)
+  command_line.replace(uri, text, diffs)
 
   diffs.count = nil
   return diffs
